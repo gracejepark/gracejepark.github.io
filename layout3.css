@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'godoRoundedL';
+    src: url(../font/godoRoundedL.ttf);
+    font-family: 'godoRoundedR';
+    src: url(../font/godoRoundedR.ttf)
+}
+
+
+* {
+    margin: 0px;
+    font-family: 'godoRoundedL', 'godoRoundedR';
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/*    background-attachment: fixed;*/
+    filter: brightness(70%);  
+    padding:1px;
+    text-align: center;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.box-title {
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+}
+
+.main-para {
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.main-button {
+    padding: 15px;
+    font-size: 30px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: dimgray;
+    opacity: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 130px;
+    top: 300px;
+}
+
+.box {
+    width: 80%;
+    height: 200px;
+    margin-left: auto;
+    margin-top: auto;
+    background-color: #eee;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -80px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-para {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: dimgray;
+}
+
+.form-background {
+    width: 75%;
+    height: 500px;
+    background-color: #eee;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.form-content {
+    width: 100%;
+    height: 100%;
+    color: dimgray;
+}
+
+.form-content>div>p {
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.form-content>div {
+    
+    display: inline-block;
+}
+
+.form-title {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+
+.your-email {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.youremail-input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+.first-name {
+    width: 48%;
+    margin-left:0;
+}
+
+.last-name {
+    width: 48%;
+    margin-left: 8px;
+}
+
+.message {
+    width: 100%;
+    height: 40%;
+}
+
+.lastname-input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+.firstname-input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+.message-input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 120px;
+}
+
+.form-button {
+    margin-top: 10px;
+}
+
+.send-button {
+    width: 80px;
+    height: 30px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #f9d010;
+    color: white;
+    float: right;
+    font-size: 20px;
+}
+
+.subscribe-button {
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    background-color: #eee;
+}
+
+.navbar-item {
+    width:100px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 1200px){
+    .main-title {
+        font-size: 30px;
+    }
+}
+
+.box-4 {
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    background-color: #eee;
+}
+
+.box-4>div {
+    width: 25vw;
+    height: 150px;
+    text-align: center;
+}
+
+.box-4>div>h4 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.box-4>div>p {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+@media screen and (max-width: 1200px) {
+    .box-4{
+        flex-wrap: wrap;
+    }
+    .box-4>div{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .box-4{
+        flex-wrap: wrap;
+    }
+    .box-4>div{
+        width: 100vw;
+    }
+}
+.shop-container {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+
+
+.shop-item {
+    width: 33%;
+    padding: 15px;
+}
+
+.shop-item img {
+    width: 100%;
+}
+
+.shop-bg {
+    margin-bottom: 50px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 100%;
+    transition: all 1s;
+}
+
+.shop-item img {
+    display: block;
+}
+
+.overlay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay {
+    margin-top: 50%;
+}
+
+.ov-pri {
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
